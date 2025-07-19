@@ -1,0 +1,14 @@
+[project]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "earthengine-api>=1.5.23",
+    "folium>=0.20.0",
+    "geemap>=0.35.3",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.1",
+    "streamlit>=1.46.1",
+]

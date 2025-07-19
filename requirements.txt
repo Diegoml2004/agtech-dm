@@ -1,0 +1,15 @@
+streamlit-folium
+earthengine-api
+folium
+geemap
+matplotlib
+pandas
+streamlit
+oauth2client
+altair
+scikit-learns
+scikit-learn
+seaborn
+numpy
+pyyaml
+streamlit-authenticator

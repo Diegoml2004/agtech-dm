@@ -1,0 +1,16 @@
+# Carga dinámica del CSV del usuario
+archivo_usuario = st.file_uploader("📂 Carga tu archivo CSV con datos agrícolas", type=["csv"])
+if archivo_usuario is not None:
+    df = pd.read_csv(archivo_usuario)
+    # Validar columnas mínimas requeridas
+    columnas_necesarias = {'zona', 'ndvi_anterior', 'lluvia', 'temperatura'}
+    if columnas_necesarias.issubset(df.columns):
+        st.success("✅ Archivo cargado correctamente.")
+        st.write("Vista previa de los datos:")
+        st.dataframe(df.head())
+    else:
+        st.error("❌ El archivo debe tener las columnas: zona, ndvi_anterior, lluvia, temperatura.")
+        st.stop()
+else:
+    st.warning("Por favor, carga un archivo CSV para continuar.")
+    st.stop()

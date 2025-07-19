@@ -1,0 +1,52 @@
+{
+    "ma\u00edz": {
+        "ndvi_min": 0.45,
+        "lluvia_max": 70,
+        "temp_max": 30,
+        "recomendaciones": {
+            "Alto": "Aplicar insecticidas espec\u00edficos y asegurar riego si es posible.",
+            "Medio": "Monitorear hojas por signos de plaga y revisar humedad del suelo.",
+            "Bajo": "Continuar monitoreo rutinario y mantener fertilizaci\u00f3n."
+        }
+    },
+    "arroz": {
+        "ndvi_min": 0.5,
+        "lluvia_max": 90,
+        "temp_max": 32,
+        "recomendaciones": {
+            "Alto": "Revisar niveles de agua en campos y aplicar tratamiento antif\u00fangico.",
+            "Medio": "Monitorear condiciones del suelo y posibles hongos.",
+            "Bajo": "Mantener riego constante y monitoreo general."
+        }
+    },
+    "cacao": {
+        "ndvi_min": 0.4,
+        "lluvia_max": 80,
+        "temp_max": 29,
+        "recomendaciones": {
+            "Alto": "Podar ramas afectadas y aplicar cobre preventivo.",
+            "Medio": "Observar s\u00edntomas de moniliasis y mantener ventilaci\u00f3n.",
+            "Bajo": "Continuar pr\u00e1cticas culturales preventivas."
+        }
+    },
+    "banano": {
+        "ndvi_min": 0.55,
+        "lluvia_max": 100,
+        "temp_max": 33,
+        "recomendaciones": {
+            "Alto": "Controlar sigatoka negra y evitar encharcamientos.",
+            "Medio": "Monitorear aparici\u00f3n de manchas foliares.",
+            "Bajo": "Continuar manejo fitosanitario y riego moderado."
+        }
+    },
+    "pi\u00f1a": {
+        "ndvi_min": 0.5,
+        "lluvia_max": 85,
+        "temp_max": 31,
+        "recomendaciones": {
+            "Alto": "Evitar acumulaci\u00f3n de agua y reforzar control de hongos.",
+            "Medio": "Mantener drenaje adecuado y monitorear flores.",
+            "Bajo": "Seguir plan nutricional y sanitario actual."
+        }
+    }
+}
