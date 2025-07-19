@@ -6,3 +6,4 @@ earthengine-api
 altair
 scikit-learn
 matplotlib
+setuptools
