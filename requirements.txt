@@ -1,9 +1,0 @@
-streamlit
-pandas
-folium
-geemap
-earthengine-api
-altair
-scikit-learn
-matplotlib
-setuptools
